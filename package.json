@@ -1,0 +1,17 @@
+{
+  "name": "@ariolo/pith",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/0x3337/pith#readme",
+  "bugs": {
+    "url": "https://github.com/0x3337/pith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x3337/pith.git"
+  },
+  "license": "MIT",
+  "author": "Mirsaid Patarov",
+  "type": "commonjs",
+  "main": "index.js"
+}
