@@ -1,0 +1,26 @@
+{
+  "name": "create-pith",
+  "version": "0.1.0",
+  "description": "Scaffolding tool for pith projects",
+  "homepage": "https://github.com/0x3337/pith#readme",
+  "bugs": {
+    "url": "https://github.com/0x3337/pith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x3337/pith.git",
+    "directory": "packages/create-pith"
+  },
+  "license": "MIT",
+  "author": "Mirsaid Patarov",
+  "bin": {
+    "create-pith": "bin/create.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin",
+    "template"
+  ]
+}

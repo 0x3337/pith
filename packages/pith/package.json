@@ -1,0 +1,61 @@
+{
+  "name": "@ariolo/pith",
+  "version": "0.1.0",
+  "description": "Minimal service framework for express applications",
+  "homepage": "https://github.com/0x3337/pith#readme",
+  "bugs": {
+    "url": "https://github.com/0x3337/pith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x3337/pith.git",
+    "directory": "packages/pith"
+  },
+  "license": "MIT",
+  "author": "Mirsaid Patarov",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./globals": "./src/globals.mjs",
+    "./kernel": "./src/kernel.mjs",
+    "./db": "./src/db.mjs"
+  },
+  "bin": {
+    "pith": "bin/pith.mjs"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "peerDependencies": {
+    "ejs": "^3.1.10 || ^6.0.1",
+    "knex": "^3.1.0",
+    "node-cron": "^4.2.1",
+    "pg": "^8.16.3"
+  },
+  "peerDependenciesMeta": {
+    "ejs": {
+      "optional": true
+    },
+    "knex": {
+      "optional": true
+    },
+    "node-cron": {
+      "optional": true
+    },
+    "pg": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "ejs": "^6.0.1"
+  }
+}
