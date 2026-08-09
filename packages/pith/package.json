@@ -1,6 +1,6 @@
 {
   "name": "@ariolo/pith",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal service framework for express applications",
   "homepage": "https://github.com/0x3337/pith#readme",
   "bugs": {

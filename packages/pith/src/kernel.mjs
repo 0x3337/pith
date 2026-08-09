@@ -70,6 +70,11 @@ const createServer = async (serverName) => {
   server.set('views', viewsPath(serverName));
   server.set('view engine', config('app.viewEngine', 'ejs'));
 
+  server.use((req, res, next) => {
+    res.locals.server = serverName;
+    next();
+  });
+
   const buildServer = await importModule(serverPath(serverName));
   buildServer(server);
 
